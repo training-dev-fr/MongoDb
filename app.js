@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/images', express.static(path.join(__dirname, 'images')));
 
 app.use('/user', userRoutes);
-app.use('/posts', postsRoutes);
+app.use('/post', postsRoutes);
 app.use('/comment', commentRoutes);
 
 module.exports = app;
