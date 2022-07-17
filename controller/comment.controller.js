@@ -2,20 +2,13 @@ const Comment = require('../model/comment.model.js');
 
 
 /**
- * Récupère les commentaires
+ * Récupère les commentaires d'un post
+ * @param {string} req.params.id id du post
  */
-exports.getAll = (req, res, next) => {
+exports.getAllByPostId = (req, res, next) => {
 
 };
 
-
-/**
- * Récupère un commentaire par son id
- * @param {string} req.params.id id du commentaire à récupérer
- */
-exports.getOne = (req, res, next) => {
-
-};
 
 /**
  * Crée un nouveau commentaire
